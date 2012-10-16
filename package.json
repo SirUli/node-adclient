@@ -1,0 +1,33 @@
+{
+  "author": {
+    "name": "Uli Wolf",
+    "email": "github@wolf-u.li"
+  },
+  "name": "adclient",
+  "description": "ldapjs client for authentication with active directory",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SirUli/node-adclient.git"
+  },
+  "keywords": [
+    "ldap",
+    "ldapjs",
+    "active directory"
+  ],
+  "bugs": {
+    "url": "https://github.com/SirUli/node-adclient/issues"
+  },
+  "main": "lib/adclient.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "dependencies": {
+    "lodash": "*"
+    , "ldapjs": "*"
+    , "underscore.string": "*"
+  }
+}
