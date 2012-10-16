@@ -1,11 +1,8 @@
 {
-  "author": {
-    "name": "Uli Wolf",
-    "email": "github@wolf-u.li"
-  },
+  "author": "Uli Wolf <github@wolf-u.li>",
   "name": "adclient",
   "description": "ldapjs client for authentication with active directory",
-  "version": "0.0.1",
+  "version": "0.9.9",
   "repository": {
     "type": "git",
     "url": "git://github.com/SirUli/node-adclient.git"
@@ -18,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/SirUli/node-adclient/issues"
   },
-  "main": "lib/adclient.js",
+  "main": "./index.js",
   "directories": {
     "lib": "./lib"
   },
@@ -26,8 +23,12 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "lodash": "*"
-    , "ldapjs": "*"
-    , "underscore.string": "*"
-  }
+    "lodash": "0.8.2",
+    "ldapjs": "0.5.7",
+    "underscore.string": "2.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "BSD"
 }
