@@ -23,7 +23,7 @@
     "node": ">=0.8"
   },
   "dependencies": {
-    "lodash": "0.8.2",
+    "lodash": ">=4.17.11",
     "ldapjs": "0.5.7",
     "underscore.string": "2.3.0"
   },
